@@ -1,15 +1,12 @@
-# Basic Sample Hardhat Project
+# Epic NFTs
+This is a web3 project that allows a user to connect their wallet and mint dynamically generated NFTs which are stored onchain. Upon minting an NFT
+the frontend captures the event in realtime and displays the Opensea address for the generated NFT. 
 
-This project demonstrates a basic Hardhat use case. It comes with a sample contract, a test for that contract, a sample script that deploys that contract, and an example of a task implementation, which simply lists the available accounts.
+# Tools
+The tools used to develop this project are:
+- Backend: Solidity (with openzeppelin libraries)/Hardhat
+- Frontend: React.js
 
-Try running some of the following tasks:
+# Access
+The app can be accessed at the following url: https://nft-starter-project.jporter1979.repl.co/. 
 
-```shell
-npx hardhat accounts
-npx hardhat compile
-npx hardhat clean
-npx hardhat test
-npx hardhat node
-node scripts/sample-script.js
-npx hardhat help
-```
